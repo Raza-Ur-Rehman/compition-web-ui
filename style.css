@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body {
+    height: 100%;
+    width: 100%;
+}
+.header {
+    height: 15%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+.header .nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header .nav-bar .nav-list {
+    display: flex;
+    gap: 30px;
+}
+.header .nav-bar .nav-list a {
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.header .nav-bar .nav-list .active {
+    color: red;
+}
+.header .nav-bar .nav-list a:hover {
+    color: red;
+}
+.sec1 {
+    background: url(home-banner.jpg.webp) no-repeat scroll center center;
+    object-fit:contain;
+    position: relative;
+    height: 100%;
+}
+.hero-sec {
+    padding-left: 60px;
+}
+
+.sec1 .hero-sec .container h5{
+    font-size: 14px;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
+.sec1 .hero-sec .container h3 {
+    color: #222222;
+    font-size: 48px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    margin-top: 7px;
+}
+.sec1 .hero-sec .container .btn-1 {
+    display: inline-block;
+    background: #f5204b;
+    padding: 0px 50px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 48px;
+    border-radius: 0px;
+    outline: none !important;
+}
+.sec1 .hero-sec .container .btn-1 a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
